@@ -1,0 +1,135 @@
+.upload-form-header {
+  padding: 27px 30px;
+  background-color: var(--color-white);
+}
+
+.section-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.section-description {
+  margin-bottom: 10px;
+}
+
+.section-action__download a {
+  color: var(--color-blue);
+}
+
+.section-action__download a span {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.upload-file-button {
+  margin-top: 20px;
+}
+
+.uploaded-files__table {
+  display: table;
+  width: 100%;
+  margin-top: 30px;
+  padding-bottom: 4px;
+
+}
+
+.uploaded-files__table--header {
+  display: table-header-group;
+}
+
+.uploaded-files__table--header .uploaded-files__table--cell {
+  border-bottom: 1px solid var(--color-grey-2);
+  padding-bottom: 4px;
+  padding-top: 5px;
+}
+
+.uploaded-files__table--cell {
+  display: table-cell;
+  color: var(--color-grey-3);
+}
+
+.uploaded-files__table--body {
+  display: table-row-group;
+}
+
+.uploaded-files__table--body .uploaded-files__table--cell {
+  border-bottom: 1px solid var(--color-grey-2);
+  padding-bottom: 14px;
+  padding-top: 14px;
+  color: var(--color-black);
+  font-weight: 600;
+}
+
+.uploaded-files__table--cell.center-cell {
+  text-align: center;
+}
+
+.uploaded-files__table--body .uploaded-files__action {
+  width: 34px;
+  height: 34px;
+  background-color: #E7F2FF;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 34px;
+  border: none;
+  cursor: pointer;
+}
+
+.section-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px dashed var(--color-grey-3);
+  cursor: pointer;
+  padding: 20px;
+  margin: 20px 0 10px;
+}
+
+.section-upload__description {
+  font-weight: 600;
+  margin: 16px 0 6px;
+}
+
+.upload-file__error {
+  padding: 20px 34px;
+  margin-top: 17px;
+  background-color: #e4706933;
+  color: var(--color-red);
+}
+
+.upload-file__error--heading {
+  margin-bottom: 13px;
+}
+
+.upload-file__error--heading span {
+  margin-left: 12px;
+  font-weight: 600;
+}
+
+.uploaded-files__table--empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.uploaded-files__table--empty img {
+  max-width: 96px;
+  margin-bottom: 30px;
+}
+
+.uploaded-files__table--empty .no-file {
+  font-weight: 600;
+  color: var(--color-grey-3);
+}
+
+.upload-form-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.btn--right-group .vdc-button {
+  margin: 0 10px;
+}
