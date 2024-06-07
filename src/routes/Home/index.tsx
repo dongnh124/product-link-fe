@@ -110,7 +110,7 @@ const Home = () => {
   return (
     <Row gutter={[16, 16]}>
       <Col lg={6} xs={24}>
-        <Card title="Action">
+        <Card title="Thao tác">
           <div className="upload-form-header">
             <div {...getRootProps()}>
               <input {...getInputProps()} />
@@ -121,10 +121,8 @@ const Home = () => {
                       src="https://cdn.shopify.com/s/files/1/0530/9261/4298/files/VDC6-arrow-down.png?v=1649907827"
                       alt="arrow-down"
                     />
-                    <p className="section-upload__description">
-                      Drag and Drop, or click to upload.
-                    </p>
-                    <p>Allowed File Types: Microsolf Excel.xlsx</p>
+                    <p className="section-upload__description">Click để tải lên file</p>
+                    <p>Chỉ cho phép file Excel</p>
                   </>
                 ) : null}
 
@@ -158,7 +156,7 @@ const Home = () => {
                 className="vdc-button upload-employee"
                 onClick={uploadFileToServer}
               >
-                Start get link
+                Bắt đầu
               </button>
               <div>
                 {error && (

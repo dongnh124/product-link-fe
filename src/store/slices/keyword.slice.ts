@@ -68,7 +68,6 @@ export const keywordSlice = createSlice({
         }
       })
       .addCase(crawl.rejected, (_state) => {
-        console.log('\n_state-416652:\n', _state);
         const state = _state;
         state.status = ERequestStatus.FAILED;
       });
